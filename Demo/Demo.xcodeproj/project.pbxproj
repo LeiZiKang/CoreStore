@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,8 +39,6 @@
 		B5A3916024E6925900E7E8BD /* Modern.PlacemarksDemo.MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3915F24E6925900E7E8BD /* Modern.PlacemarksDemo.MapView.swift */; };
 		B5A3916224E697BA00E7E8BD /* Modern.PlacemarksDemo.MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3916124E697BA00E7E8BD /* Modern.PlacemarksDemo.MainView.swift */; };
 		B5A3916524E698C700E7E8BD /* Modern.PlacemarksDemo.Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3916424E698C700E7E8BD /* Modern.PlacemarksDemo.Place.swift */; };
-		B5A3916B24E698F900E7E8BD /* CoreStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3916724E698F900E7E8BD /* CoreStore.framework */; };
-		B5A3916C24E698F900E7E8BD /* CoreStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3916724E698F900E7E8BD /* CoreStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5A3917524E6990200E7E8BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3917424E6990200E7E8BD /* MapKit.framework */; };
 		B5A3917724E6990700E7E8BD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3917624E6990700E7E8BD /* CoreLocation.framework */; };
 		B5A3917924E6991600E7E8BD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3917824E6991600E7E8BD /* SwiftUI.framework */; };
@@ -100,6 +98,7 @@
 		B5D6F209250E14AA00DF5D2F /* Advanced.EvolutionDemo.Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6F208250E14AA00DF5D2F /* Advanced.EvolutionDemo.Migrator.swift */; };
 		B5D6F210250E1E3200DF5D2F /* Advanced.EvolutionDemo.V1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5D6F20E250E1E3200DF5D2F /* Advanced.EvolutionDemo.V1.xcdatamodeld */; };
 		B5E32C9024FA41F9003F46AD /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E32C8F24FA41F9003F46AD /* ImageDownloader.swift */; };
+		DD17FB5C2BB5DE9900781FAC /* CoreStore in Frameworks */ = {isa = PBXBuildFile; productRef = DD17FB5B2BB5DE9900781FAC /* CoreStore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,7 +108,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B5A3916C24E698F900E7E8BD /* CoreStore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +150,6 @@
 		B5A3915F24E6925900E7E8BD /* Modern.PlacemarksDemo.MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modern.PlacemarksDemo.MapView.swift; sourceTree = "<group>"; };
 		B5A3916124E697BA00E7E8BD /* Modern.PlacemarksDemo.MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modern.PlacemarksDemo.MainView.swift; sourceTree = "<group>"; };
 		B5A3916424E698C700E7E8BD /* Modern.PlacemarksDemo.Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modern.PlacemarksDemo.Place.swift; sourceTree = "<group>"; };
-		B5A3916724E698F900E7E8BD /* CoreStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A3916824E698F900E7E8BD /* CoreStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A3916924E698F900E7E8BD /* CoreStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A3916A24E698F900E7E8BD /* CoreStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A3917424E6990200E7E8BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		B5A3917624E6990700E7E8BD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		B5A3917824E6991600E7E8BD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
@@ -224,9 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A3917724E6990700E7E8BD /* CoreLocation.framework in Frameworks */,
-				B5A3916B24E698F900E7E8BD /* CoreStore.framework in Frameworks */,
 				B5A3917924E6991600E7E8BD /* SwiftUI.framework in Frameworks */,
 				B5A3917524E6990200E7E8BD /* MapKit.framework in Frameworks */,
+				DD17FB5C2BB5DE9900781FAC /* CoreStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +354,6 @@
 				B5A3917824E6991600E7E8BD /* SwiftUI.framework */,
 				B5A3917624E6990700E7E8BD /* CoreLocation.framework */,
 				B5A3917424E6990200E7E8BD /* MapKit.framework */,
-				B5A3916724E698F900E7E8BD /* CoreStore.framework */,
-				B5A3916824E698F900E7E8BD /* CoreStore.framework */,
-				B5A3916924E698F900E7E8BD /* CoreStore.framework */,
-				B5A3916A24E698F900E7E8BD /* CoreStore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -612,6 +602,9 @@
 			dependencies = (
 			);
 			name = Demo;
+			packageProductDependencies = (
+				DD17FB5B2BB5DE9900781FAC /* CoreStore */,
+			);
 			productName = Demo;
 			productReference = B5A3911924E5429200E7E8BD /* Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -631,7 +624,7 @@
 				};
 			};
 			buildConfigurationList = B5A3911224E5424E00E7E8BD /* Build configuration list for PBXProject "Demo" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -639,6 +632,9 @@
 				Base,
 			);
 			mainGroup = B5A3910E24E5424E00E7E8BD;
+			packageReferences = (
+				DD17FB582BB5DCD500781FAC /* XCRemoteSwiftPackageReference "CoreStore" */,
+			);
 			productRefGroup = B5A3911A24E5429200E7E8BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -875,7 +871,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 2JT32EJ5BH;
+				DEVELOPMENT_TEAM = XK8TNDZ5NX;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -949,7 +945,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 2JT32EJ5BH;
+				DEVELOPMENT_TEAM = XK8TNDZ5NX;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1002,6 +998,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD17FB582BB5DCD500781FAC /* XCRemoteSwiftPackageReference "CoreStore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnEstropia/CoreStore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD17FB5B2BB5DE9900781FAC /* CoreStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD17FB582BB5DCD500781FAC /* XCRemoteSwiftPackageReference "CoreStore" */;
+			productName = CoreStore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B5A543D924FB7513000DC5E3 /* Classic.ColorsDemo.xcdatamodeld */ = {
